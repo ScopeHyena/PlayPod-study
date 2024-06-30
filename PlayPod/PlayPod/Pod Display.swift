@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct Pod_Display: View {
-    @ObservedObject var eventTest: ButtonEventTestModel
+    @ObservedObject var event: TestModel
     var body: some View {
-        Text(eventTest.text)
+        Text(event.text)
+            .foregroundColor(.black)
+            .multilineTextAlignment(.center)
     }
 }
 
 #Preview(traits: .fixedLayout(width: 320, height: 240)) {
-    Pod_Display(eventTest: ButtonEventTestModel())
+    Pod_Display(event: TestModel())
 }

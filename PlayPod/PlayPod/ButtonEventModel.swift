@@ -8,6 +8,6 @@
 import SwiftUI
 import Combine
 
-class ButtonEventTestModel: ObservableObject {
-    @Published var text: String = "Hello, World!"
+class TestModel: ObservableObject {
+    @Published var text = "Hello, World!"
 }
