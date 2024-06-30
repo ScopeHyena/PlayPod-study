@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		881233E32C30EE06007B216E /* Pod Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881233E22C30EE06007B216E /* Pod Display.swift */; };
+		881233E52C30F1F1007B216E /* iPodButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881233E42C30F1F1007B216E /* iPodButton.swift */; };
+		881233E72C30F49A007B216E /* ButtonEventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881233E62C30F49A007B216E /* ButtonEventModel.swift */; };
 		88BDE8672C2FC143006B2A65 /* PlayPodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BDE8662C2FC143006B2A65 /* PlayPodApp.swift */; };
 		88BDE8692C2FC143006B2A65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BDE8682C2FC143006B2A65 /* ContentView.swift */; };
 		88BDE86B2C2FC143006B2A65 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BDE86A2C2FC143006B2A65 /* Item.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		881233E22C30EE06007B216E /* Pod Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pod Display.swift"; sourceTree = "<group>"; };
+		881233E42C30F1F1007B216E /* iPodButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPodButton.swift; sourceTree = "<group>"; };
+		881233E62C30F49A007B216E /* ButtonEventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonEventModel.swift; sourceTree = "<group>"; };
 		88BDE8632C2FC143006B2A65 /* PlayPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BDE8662C2FC143006B2A65 /* PlayPodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayPodApp.swift; sourceTree = "<group>"; };
 		88BDE8682C2FC143006B2A65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +104,9 @@
 			children = (
 				88BDE8662C2FC143006B2A65 /* PlayPodApp.swift */,
 				88BDE8682C2FC143006B2A65 /* ContentView.swift */,
+				881233E62C30F49A007B216E /* ButtonEventModel.swift */,
+				881233E22C30EE06007B216E /* Pod Display.swift */,
+				881233E42C30F1F1007B216E /* iPodButton.swift */,
 				88BDE86A2C2FC143006B2A65 /* Item.swift */,
 				88BDE86C2C2FC144006B2A65 /* Assets.xcassets */,
 				88BDE86E2C2FC144006B2A65 /* Preview Content */,
@@ -261,7 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				88BDE8692C2FC143006B2A65 /* ContentView.swift in Sources */,
+				881233E32C30EE06007B216E /* Pod Display.swift in Sources */,
 				88BDE86B2C2FC143006B2A65 /* Item.swift in Sources */,
+				881233E52C30F1F1007B216E /* iPodButton.swift in Sources */,
+				881233E72C30F49A007B216E /* ButtonEventModel.swift in Sources */,
 				88BDE8672C2FC143006B2A65 /* PlayPodApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
